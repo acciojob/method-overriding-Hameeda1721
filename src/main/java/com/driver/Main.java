@@ -5,7 +5,7 @@ public class Main {
     public static class A{
         @Override
         public String meth(){
-            "Invoking method from class A";
+            return "Invoking method from class A";
         }
     }
     public static class B extends A{

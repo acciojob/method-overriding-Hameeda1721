@@ -4,7 +4,7 @@ public class Main {
 
     public static class A{
         @Override
-        String meth(){
+        public String meth(){
             "Invoking method from class A"
         }
     }

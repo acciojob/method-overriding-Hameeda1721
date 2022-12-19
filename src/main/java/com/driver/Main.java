@@ -9,7 +9,7 @@ public class Main {
         }
     }
     public static class B extends A{
-        String meth(){
+        public String meth(){
             //super.meth();
             return "Method is overridden in Extendend class B";
         }

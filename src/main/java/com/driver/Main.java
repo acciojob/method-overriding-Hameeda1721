@@ -21,7 +21,7 @@ public class Main {
         b.meth().super();
 
         B b1 = new B();
-        b1.meth();
+        b1.meth().super();
 
     }
   
